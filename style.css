@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family:'font_rock';
+  src: url('../projeto_resistencia/fontes/cloister_black/CloisterBlack.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+header {
+  background-color: #222222;
+  color: white;
+}
+header > h1{
+  text-align: center;
+  padding: 10px 10px 3px 10px;
+  font-size: 9vw;
+  font-family:'font_rock', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+header > nav{
+  text-align: center;
+  padding: 3px 10px 10px 10px;
+}
+header > nav > a{
+  padding: 5px;
+  margin: auto;
+}
+div{
+  background-image: url(imagens/capa_banda.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
